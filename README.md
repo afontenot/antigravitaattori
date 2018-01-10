@@ -3,7 +3,7 @@ Antigravitaattori
 
 Multiplayer flying saucer racing game.
 
-This is a forked version of the original game, featuring the following changes:
+This version of the game is a fork of a fork -- in addition to the following changes, it has been modified to be built with MINGW on Windows:
 
  - ported to libpng 1.6
  - ported to SDL 2.0
@@ -11,23 +11,10 @@ This is a forked version of the original game, featuring the following changes:
  - support for game controllers (tested with wireless XBOX 360 controller)
 
 ## Requirements
- - SDL2
- - libpng
- - libalut
- - libglu
- - libopenal
+ - SDL2 (mingw-w64-x86\_64-SDL2)
+ - libpng (mingw-w64-x86\_64-libpng)
+ - freealut (https://github.com/vancegroup/freealut)
+ - libopenal (mingw-w64-x86\_64-openal)
 
-### Ubuntu 16.04
-
-	$ apt-get install make g++ libsdl2-dev libpng16-dev libalut-dev libglu-dev libopenal-dev
-
-## Build and install
-
-Build and install with make:
-
-	$ make && make install
-
-By default, the game is installed to `/usr/local`. This can be changed with
-variable `PREFIX`, e.g:
-
-	$ make PREFIX=/usr && make install PREFIX=/usr
+## Building
+Use `make` to build. Copy the data folder to the directory you have antigrav.exe in, and copy any necessary .dlls from your mingw installation into the directory as well. This will make the game portable.

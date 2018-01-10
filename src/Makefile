@@ -1,7 +1,6 @@
 CC = g++
-CFLAGS = -O2 -D_REENTRANT -I/usr/include/SDL2 -Itinyxml -DTIXML_USE_STL \
-		 -DDATADIR="\"$(DATADIR)\""
-LDFLAGS = -lpng -lalut -lopenal -lGL -lGLU -lSDL2
+CFLAGS = -O2 -D_REENTRANT -I/mingw64/include/SDL2 -Itinyxml -DTIXML_USE_STL
+LDFLAGS = -lpng -lalut -lopenal -lopenGL32 -lglu32 -lmingw32 -lSDL2main -lSDL2
 
 SOURCES = background.cpp \
 	craft.cpp \

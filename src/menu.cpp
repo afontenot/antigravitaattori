@@ -1,5 +1,6 @@
 #include "SDL.h"
 #include "SDL_opengl.h"
+#include <windef.h>
 #include <GL/glu.h>
 #include <AL/al.h>
 

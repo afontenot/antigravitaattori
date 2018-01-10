@@ -2,6 +2,7 @@
 #include "SDL_opengl.h"
 #include "SDL_keycode.h"
 
+#include <windef.h>
 #include <GL/glu.h>
 #include <AL/al.h>
 #include <cmath>
