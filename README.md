@@ -3,7 +3,7 @@ Antigravitaattori
 
 Multiplayer flying saucer racing game.
 
-This version of the game is a fork of a fork -- in addition to the following changes, it has been modified to be built with MINGW on Windows:
+This version of the game is a fork of a fork -- in addition to the following changes, it has been modified to be built with MINGW on Windows.
 
  - translated to English
  - ported to libpng 1.6
@@ -24,3 +24,6 @@ Use `make` to build. Copy the data folder to the directory you have antigrav.exe
  - libwinpthread
 
 The resulting application is portable.
+
+## Binary
+A hopefully working build of the program is available [here](https://adamfontenot.com/files/antigrav.tar.gz).
