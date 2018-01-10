@@ -1,9 +1,9 @@
-Antigravitaattori
+Antigravitaattori ("Antigravitator")
 =================
 
 Multiplayer flying saucer racing game.
 
-This version of the game is a fork of a fork -- in addition to the following changes, it has been modified to be built with MINGW on Windows.
+This version of the game is a fork of a fork. In addition to the following changes by `aither64`, it has been modified to be built with MINGW on Windows.
 
  - translated to English
  - ported to libpng 1.6
